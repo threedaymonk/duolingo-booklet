@@ -13,17 +13,17 @@ table {
   border-collapse: collapse;
   text-align: left;
 }
-table td, table th {
+td, th {
   border: 1px solid #444;
   padding: 3px 5px;
 }
-table tr:nth-child(even) {
+tr:nth-child(even) {
   background: #eee;
 }
-table thead {
+thead {
   background: #444;
 }
-table thead th {
+thead th {
   font-weight: bold;
   color: white;
 }
@@ -39,5 +39,18 @@ section h6 { font-size: 1em; }
 
   ul, table {
     page-break-inside: avoid;
+  }
+
+  td, th {
+    border: 1px solid black;
+  }
+  tr:nth-child(even) {
+    background: #eee;
+  }
+  thead {
+    background: black;
+  }
+  thead th {
+    color: white;
   }
 }
