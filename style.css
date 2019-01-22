@@ -1,0 +1,43 @@
+html, body {
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  color: black;
+  background-color: white;
+}
+
+hr {
+  border: none;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+  text-align: left;
+}
+table td, table th {
+  border: 1px solid #444;
+  padding: 3px 5px;
+}
+table tr:nth-child(even) {
+  background: #eee;
+}
+table thead {
+  background: #444;
+}
+table thead th {
+  font-weight: bold;
+  color: white;
+}
+
+section h1 { font-size: 1.5em; }
+section h2 { font-size: 1.17em; }
+section h4 { font-size: 1.12em; }
+section h5 { font-size: 1em; }
+section h6 { font-size: 1em; }
+
+@media print {
+  section { page-break-after: always; }
+
+  ul, table {
+    page-break-inside: avoid;
+  }
+}
