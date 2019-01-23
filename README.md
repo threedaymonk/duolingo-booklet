@@ -3,6 +3,10 @@
 This Ruby script will process a Duolingo course JSON file and generate an HTML
 version of the full course notes.
 
+**This does not work for Spanish at present**: most languages' notes are in
+HTML, but Spanish (and possibly other languages) uses a structured JSON format
+that requires further work.
+
 ## Obtaining the JSON
 
 This is a little complicated, and requires some familiarity with browser
